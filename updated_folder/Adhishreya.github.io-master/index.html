@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+	<title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    
+	</title>
+
+
+  <script >
+    $(document).ready(function(){
+$("div").fadeIn(3000);
+    });
+
+  </script>
+</head>
+
+
+<body>
+  <h1 class="animated bounce">Shopping Cart</h1>
+<link rel="stylesheet" type="text/css" href="grid.css">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <div id="nav">
+      <ul style="">
+        <li>Electronics</li>
+        <span>
+        <li>Groceries</li>
+      </span>
+        <li>Books</li>
+        <span>        <li>Apparels</li>
+          </span>
+<li onclick="hi()">^</li>
+      </ul>
+
+    </div>
+<div class="container">
+  <div class="row">
+    <div class="col-sm animated rollIn" style="background-image:url(hotspot.png); " >
+    	<p style="text-align: top;text-decoration: underline;text-decoration-color: blue;color:red;opacity:0.5 ;margin-top: 125px;margin-left: 40px" onmouseenter="call()"> Hotspot</p>
+    </div>
+    <div class="col-sm animated rollIn" style="background-image:url(headphones.png); ">
+     <p style="text-align: top;text-decoration: underline;text-decoration-color: blue;color:red;opacity:0.5 ;margin-top: 125px;margin-left: 40px" > Headphones</p> 
+    </div>
+    <div class="col-sm animated rollIn" style="background-image:url(phone.png); ">
+      <p style="text-align: top;text-decoration: underline;text-decoration-color: blue;color:red;opacity:0.5 ;margin-top: 125px;margin-left: 40px"> Phonees & Accessories</p>
+    </div>
+    <div class="col-sm animated rollIn" style="background-image:url(tv.png); ">
+      <p style="text-align: top;text-decoration: underline;text-decoration-color: blue;color:red;opacity:0.5 ;margin-top: 125px;margin-left: 40px"> Tv</p>
+    </div>
+
+  </div>
+  <div class="row"style=" margin-top:90px">
+    <div class="col-sm animated rollIn" style="background-image:url(cameras.png); " onmouseenter="de()">
+    	<p style="text-align: top;text-decoration: underline;text-decoration-color: blue;color:red;opacity:0.5 ;margin-top: 125px;margin-left: 40px"> Cameras & Accessories</p>
+    </div>
+    <div class="col-sm animated rollIn" style="background-image:url(wearc.png); ">
+     <p style="text-align: top;text-decoration: underline;text-decoration-color: blue;color:red;opacity:0.5 ;margin-top: 125px;margin-left: 40px"> Wearables</p> 
+    </div>
+    <div class="col-sm animated rollIn" style="background-image:url(gaming.png); ">
+      <p style="text-align: top;text-decoration: underline;text-decoration-color: blue;color:red;opacity:0.5 ;margin-top: 125px;margin-left: 40px"> Gaming PC</p>
+    </div>
+    <div class="col-sm animated rollIn" style="background-image:url(printers.png); ">
+      <p style="text-align: top;text-decoration: underline;text-decoration-color: blue;color:red;opacity:0.5 ;margin-top: 125px;margin-left: 40px"> Printers & Accessories</p>
+    </div>
+
+  </div>
+</div>
+
+<button onclick="de()"></button>
+<!-- <div>
+  <div id="a"><p>asdfgh</p></div>
+  <div id="a"><p>asdfgh</p></div>
+  <div id="a"><p>asdfgh</p></div>
+</div> -->
+<!-- <iframe
+    allow="microphone;"
+    width="350"
+    height="430"
+    src="https://console.dialogflow.com/api-client/demo/embedded/f3af5db5-4c72-4ebd-859b-5f5102b9626c">
+</iframe> -->
+<script src="/__/firebase/7.0.0/firebase-app.js"></script>
+<script src="/__/firebase/7.0.0/firebase-analytics.js"></script>
+<script src="/__/firebase/init.js"></script>
+<script type="text/javascript" src="grid.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+/*.one{
+	background-image: url("job.png");
+}*/
+.col-sm{
+	background-repeat: no-repeat;
+	/*background-position: 100px;*/
+	background-origin: content-box;
+	background-size: 60%;
+	height: 130px;width: 20px;border-radius: 30px;
+	box-shadow: 1px 2px #dfe8df;
+	background-repeat: no-repeat;
+cursor: pointer;
+transition: all 2s;
+}
+
+ul{
+
+	list-style: none;
+}
+
+li{		display: none;
+		padding-left: 400px;
+		padding-right: 200px;
+		padding-bottom: 20px;
+		margin-bottom: 10px;
+		box-shadow: 0.50px  0px #f7f4cb;
+		background-color: #d3f0ec;
+		cursor: pointer;
+	}
+
+.col-sm:hover{
+	transform: scale(1.2);
+}
+
+
+h1{
+	transition: all 1s;
+	width: 280px;
+	box-shadow: 3px 4px 6px #fcba03;
+	-moz-box-shadow: 3px 4px 6px #fcba03;/* to ensure working on mozilla*/
+	-webkit-box-shadow: 3px 4px 6px #fcba03;/* to ensure working on chrome and safari*/
+	-ms-box-shadow: 3px 4px 6px #fcba03;/* to ensure working on edge*/
+
+}
+h1:hover{
+transform: scale(1.2);
+}

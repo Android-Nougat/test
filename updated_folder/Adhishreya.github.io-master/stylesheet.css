@@ -1,0 +1,84 @@
+/* Reset CSS (DO NOT DELETE) */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Avenir Next";
+}
+
+#pros  {
+  list-style: none;
+   display:inline;
+   margin-left:20px;
+   margin-right:20px;
+   margin-top:30px;
+   margin-bottom:33px;
+}
+
+/* Write your code below */
+div{
+  background-color:"26d0c9";
+ 
+}
+
+/*#prod{
+  margin-left:40px;
+  margin-top:200px;
+}
+*/
+/* Reset CSS (DO NOT DELETE) */
+/* Reset CSS (DO NOT DELETE) */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+h1{
+  font-size:45px;
+  letter-spacing:5px;
+ color:white;
+ /*margin-left:180px;*/
+ opacity:0.7;
+}
+div{
+    margin-top:180px;
+}
+#note{
+  /*margin-top:180px;*/
+}
+body {
+  font-family: "Lucida Grande";
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-image:url("https://prog-8.com/images/html/advanced/top_en.png");
+}
+p{
+  color:white;
+  opacity:0.7;
+  margin-left:350px;
+}
+li {
+  list-style: none;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+button{
+  margin-left:200px;
+}
+a {
+  text-decoration: none;
+}
+div{
+  
+}
+/* Write your code below */
+.button{
+  display :inline;
+  
+}
