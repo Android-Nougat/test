@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<style>
+	.container{
+	height: 200px;
+  width: 100%;
+		/*display: inline-block;*/
+display: grid;
+grid-gap: 4px;
+
+/*height: auto;*/
+grid-template-columns:repeat(auto-fill,minmax(200px,2fr)) ;
+/**/
+grid-template-rows: 1fr;
+
+	}
+	.contents1,.contents2,.contents4,.contents3,.contents5,.contents6,.contents7,.contents8{
+		height: 100px;
+
+		width: 100px;
+		background: red;
+	}
+	.contents1{
+		/*display: inline-block;*/
+			padding: 10px;
+		justify-self:start;
+		grid-column:span 1;
+		/*grid-column-end: 3;*/
+		/*grid-column-start:  1;*/
+		/*grid-column-start:  3;*/
+	}
+/*	.contents:hover{
+		background:black;
+		cursor: pointer;
+	}*/
+	nav{
+		display: grid;
+		grid-template-columns: repeat(4,1fr);	
+		grid-gap: 20px;
+
+	}
+
+	.nav{
+		background: black;
+		color: white;
+		width: 80px;
+		height: 20px;
+		font-stretch: 2px;
+	}
+</style>
+<body>
+<div class="container">
+	<div class="contents1" >1</div>
+	<div class="contents2" >2</div>
+	<div class="contents3" >3</div>
+	<div class="contents4" >4</div>
+	<div class="contents5">5</div>
+	<div class="contents6">6</div>
+	<div class="contents7">7</div>
+	<div class="contents8">8</div>
+	<!-- <div class="contents"></div>
+	<div class="contents"></div>
+	<div class="contents"></div> -->
+
+</div>
+<!-- <nav>
+	
+	<div class="nav">Home</div>
+	<div class="nav">Offers</div>
+	<div class="nav">Products</div>
+	<div class="nav">About Us</div>
+
+</nav> -->
+</body>
+</html>

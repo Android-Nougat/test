@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    .cards{
+        width:70%;
+        align-self: center;
+        margin-top: 20px;
+        margin-left: 20%;
+        text-align: center;
+        box-shadow:2px 3px 2px 2px gray;
+        flex: 0 0 20%;
+        height: 30vh;
+    }
+
+@media screen and (min-width: 1040px){
+    .container{
+        justify-content: center;
+       
+        /* align-content: center; */
+        background-color: aquamarine;
+
+        overflow: hidden;
+        grid-template-columns:1fr 1fr 1fr ;
+        scroll-behavior: unset;
+        display: grid;
+        
+    }
+    .cards{
+        /* align-self: center; */
+        width: 40vh;
+        cursor: pointer; margin-left: 10%;
+        background-color: antiquewhite;
+    }
+
+    .cards:hover{
+        transform: scale(1.1);
+    }
+}
+
+@media screen and (min-width:573px) and ( max-width : 1031px) {
+        /* html, body {margin: 0; height: 100%; overflow: hidden} */
+        .container{
+            background-color: cornsilk;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+
+            width: 100%;
+            /* grid-column-start: auto; */
+          
+            /* mar */
+            /* flex-direction: column; */
+            /* flex-wrap: wrap; */
+            /* flex-grow: inherit; */
+            /* flex-wrap: wrap; */
+        }
+        .cards{
+            /* width: max-content; */
+            background-color: darkgray;
+            width: 80%;
+            margin-left: 10%;
+        }
+        .cards:focus{
+            transform: scale(1.1);
+        }
+    }
+
+    @media screen and (max-width: 600px) {
+        /* html, body {margin: 0; height: 100%; overflow: hidden} */
+        .container{
+            background-color: cornsilk;
+            display: grid;
+            width: 100%;
+            flex-direction: column;
+            /* flex-wrap: wrap; */
+            /* flex-grow: inherit; */
+            flex-wrap: wrap;
+        }
+        .cards{
+            /* width: max-content; */
+            background-color: darkgray;
+        }
+        .cards:focus{
+            transform: scale(1.1);
+        }
+    }
+    </style>
+</head>
+
+<body>
+    <article class="container" >
+        <div class="cards"><h1>Androis</h1><p>bsbifdb</p></div>
+        <div class="cards"><h1>jksdfhlsd</h1><p>asdfsf</p></div>
+        <div class="cards"><h1>sdafd</h1><p>asdfsdaf</p></div>
+        <div class="cards"><h1>asdfsdf</h1><p>SDAfsdf</p></div>
+        <div class="cards"><h1>Androis</h1><p>bsbifdb</p></div>
+        <div class="cards"><h1>jksdfhlsd</h1><p>asdfsf</p></div>
+        <div class="cards"><h1>sdafd</h1><p>asdfsdaf</p></div>
+        <div class="cards"><h1>asdfsdf</h1><p>SDAfsdf</p></div>
+        <div class="cards"><h1>Androis</h1><p>bsbifdb</p></div>
+        <div class="cards"><h1>jksdfhlsd</h1><p>asdfsf</p></div>
+        <div class="cards"><h1>sdafd</h1><p>asdfsdaf</p></div>
+        <div class="cards"><h1>asdfsdf</h1><p>SDAfsdf</p></div>
+        <div class="cards"><h1>Androis</h1><p>bsbifdb</p></div>
+        <div class="cards"><h1>jksdfhlsd</h1><p>asdfsf</p></div>
+        <div class="cards"><h1>sdafd</h1><p>asdfsdaf</p></div>
+        <div class="cards"><h1>asdfsdf</h1><p>SDAfsdf</p></div>
+        <div class="cards"><h1>Androis</h1><p>bsbifdb</p></div>
+        <div class="cards"><h1>jksdfhlsd</h1><p>asdfsf</p></div>
+        <div class="cards"><h1>sdafd</h1><p>asdfsdaf</p></div>
+        <div class="cards"><h1>asdfsdf</h1><p>SDAfsdf</p></div>
+        <div class="cards"><h1>Androis</h1><p>bsbifdb</p></div>
+        <div class="cards"><h1>jksdfhlsd</h1><p>asdfsf</p></div>
+        <div class="cards"><h1>sdafd</h1><p>asdfsdaf</p></div>
+        <div class="cards"><h1>asdfsdf</h1><p>SDAfsdf</p></div>
+        <div class="cards"><h1>Androis</h1><p>bsbifdb</p></div>
+        <div class="cards"><h1>jksdfhlsd</h1><p>asdfsf</p></div>
+        <div class="cards"><h1>sdafd</h1><p>asdfsdaf</p></div>
+        <div class="cards"><h1>asdfsdf</h1><p>SDAfsdf</p></div>
+        <div class="cards"><h1>Androis</h1><p>bsbifdb</p></div>
+        <div class="cards"><h1>jksdfhlsd</h1><p>asdfsf</p></div>
+        <div class="cards"><h1>sdafd</h1><p>asdfsdaf</p></div>
+        <div class="cards"><h1>asdfsdf</h1><p>SDAfsdf</p></div>
+    </article>
+</body>
+</html>

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Piano</title>
+  
+    <style>
+        .container{
+            background: brown;
+            display: flex;
+            height: 80vh;
+            width: 100%;
+            /* justify-content: flex-start; */
+            flex-direction: row;
+          
+        }
+        /* .container::after{ */
+            /* color: transparent; */
+            /* background: green; */
+            /* position: relative; */
+            /* content: 'as'; */
+            /* width: 10vw; */
+           
+            /* left: 20px; */
+            
+        /* } */
+        .chords:nth-child(even)::after{
+            color: transparent;
+            background: black;
+            /* position: relative; */
+            content: 'as';
+            width: 1vw;
+            text-align:left;
+            height: 40px!important;
+    float:left;
+        }
+        .chords:nth-child(odd):before:active{
+            background: red!important;
+        }
+        .chords:nth-child(odd)::before{
+            color: transparent;
+            align-self: flex-end;
+            background: black;
+            text-align:right;
+    float:right;
+            /* position: relative; */
+            content: 'as';
+            width: 1vw;
+            height: 40px!important;
+        }
+
+        .chords {
+            background: #fff;
+            height: 20vh;
+            margin: 2px;
+            width: 4.5%;
+            box-shadow:0 10px 3px 0.4px #f5f0e4;
+        }
+
+        .chords:active{
+            transform: translateY(-20px);
+            box-shadow:0 10px rebeccapurple;
+        }
+        .bl:active{
+            transform: translateY(-20px);
+            box-shadow:0 10px rebeccapurple;
+        }
+        .bl{
+            background: rgb(7, 7, 7);
+            height: 10vh;
+            margin: 2px;
+            width: 2%;
+            box-shadow:0 20px 3px 0.4px #131212;
+        }
+        .chords~.chords::before{
+                background: deeppink;
+                width: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container" >
+        <div class="chords"></div>
+        <div class="chords"></div>
+        <div class="chords"></div>
+        <div class="chords"></div>
+        <div class="chords"></div>
+        <div class="chords"></div>
+        <div class="chords"></div>
+        <div class="chords"></div>
+        <div class="chords"></div>
+        <div class="chords"></div>
+        <div class="chords"></div>
+        <div class="chords"></div>
+        <div class="chords"></div>
+        <div class="chords"></div>
+        <div class="chords"></div>
+        <div class="chords"></div>
+        <div class="chords"></div>
+        <div class="chords"></div>
+        <div class="chords"></div>
+        <div class="chords"></div>
+        <div class="chords"></div>
+        <div class="chords"></div>
+        <div class="chords"></div>
+        <div class="chords"></div>
+        <div class="chords"></div>
+        <div class="chords"></div>
+    </div>
+</body>
+</html>
